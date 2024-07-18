@@ -45,7 +45,7 @@ http://localhost:3000/api/v2/seed
 
 ## Production BUILD with Docker
 
-1. Crear archivo env.prod
+1. Crear archivo **_.env.prod_**
 2. Llenar las variables de entorno de **_.env.prod_**
 3. Crear la nueva imagen de docker:
 
