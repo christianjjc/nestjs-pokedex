@@ -23,7 +23,21 @@ npm install -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reconstruir la base de datos con data inicial. SOLO USAR EN MODO DESARROLLO!!!
+5. Clonar el archivo **_.env.template_** y la copia renombrarla como **_.env_**
+
+```
+".env.template copy" --> ".env"
+```
+
+6. Llenar las variables de entorno en el archivo **_.env_**
+
+7. Ejecutar la aplicación en modo desarrollo
+
+```
+npm run start:dev
+```
+
+8. Reconstruir la base de datos con data inicial. SOLO USAR EN MODO DESARROLLO!!!
 
 ```
 http://localhost:3000/api/v2/seed
@@ -31,6 +45,7 @@ http://localhost:3000/api/v2/seed
 
 ## Stack Usado:
 
-- MongoDB
 - NestJS
 - Docker
+- MongoDB
+- Postman
